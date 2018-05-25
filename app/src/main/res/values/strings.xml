@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">My Love Days</string>
+    <string name="name_man">Man</string>
+    <string name="name_girl">Girl</string>
+    <string name="input_song">Chọn bài hát bạn muốn</string>
+    <string name="input_hinh_nam">Hình của bạn</string>
+    <string name="input_hinh_ny">Hình của người yêu bạn</string>
+    <string name="input_ngay_batdau">Ngày bắt đầu yêu (dd/MM/yyyy)</string>
+    <string name="input_name_user">Nhập biệt danh hoặc tên của bạn</string>
+    <string name="input_name_lover">Nhập biệt danh hoặc tên của người yêu bạn</string>
+    <string name="input_mess_macdinh">Mặc định</string>
+    <string name="btn_save">Lưu</string>
+
+    <string name="show_bat_ngo">Hãy dành cho người ấy một bất ngờ</string>
+    <string name="input_mess">Nhập thông điệp bạn muốn gửi</string>
+    <string name="show_vidu">Ví dụ : Anh yêu em,Mỗi ngày bên em là mỗi ngày thật vui</string>
+    <string name="btn_huy">Hủy</string>
+
+    <string name="mess_macding_code">...Anh Yêu Em...</string>
+    <string name="dialog_canhbao_chuan_code">Ngày phải đúng chuẩn dd/MM/yyyy!</string>
+    <string name="dialog_canhbao_saingay_code">Ngày bắt đầu phải nhỏ hơn hoặc bằng ngày hiện tại!</string>
+    <string name="dialog_thanhcong_code">Thành Công !</string>
+    <string name="dialog_canhbao_mp3_code">Hãy chắc chắn rằng file DCIM của bạn có mp3!</string>
+    <string name="ngay_bat_dau_code">Ngày bắt đầu :</string>
+
+    <string name="ky_niem">Kỷ Niệm</string>
+    <string name="btn_luu">Add</string>
+    <string name="dialog_them_ky_niem">Thêm một kỷ niệm</string>
+    <string name="ngay_ky_niem">Ngày kỷ niệm</string>
+    <string name="ghi_chu">Ghi chú</string>
+    <string name="dialog_show_xoa">Xóa...</string>
+    <string name="dialog_hoi_de_xoa">Hãy chắc chắn rằng bạn muốn xóa kỷ niệm này !</string>
+    <string name="dialog_khong">Không</string>
+    <string name="dialog_dung">Có</string>
+    <string name="dialog_chua_co_anh">Chưa có ảnh !</string>
+    <string name="dialog_chua_co_ngay_ky_niem">Chưa có ngày kỷ niệm !</string>
+    <string name="dang_xuat">Bạn muốn đăng xuất ?</string>
+
+    <string name="baner_qc" translatable="false">ca-app-pub-6720811027803589/1704045360</string>
+    <string name="quang_cao_full" translatable="false">ca-app-pub-6720811027803589/5460646916</string>
+    <string name="khong_chua">Không được phép sử dụng dấu "," </string>
+
+    <string name="btn_chay_chu">Chạy chữ</string>
+    <string name="id_analys" >UA-118880302-11</string>
+</resources>

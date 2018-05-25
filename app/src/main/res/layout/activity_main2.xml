@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="true"
+    android:scrollbars="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="10"
+            tools:context=".Main2Activity">
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Toolbar
+
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#4acc8d"
+                    android:gravity="center"
+                    android:textAlignment="center">
+                    !-- #e91e63 - 4acc8d
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:weightSum="1">
+
+                        <ImageButton
+                            android:id="@+id/imbBack"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="0.2"
+                            android:background="@null"
+                            android:onClick="Click"
+                            android:src="@mipmap/icback" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:layout_weight="0.6"
+                            android:text="Setting"
+                            android:textColor="@color/mauTrang"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/btnSave"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="0.2"
+                            android:onClick="Click"
+                            android:text="@string/btn_save" />
+                    </LinearLayout>
+
+
+                </Toolbar>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="3dp"
+                    android:weightSum="1">
+
+                    <ImageView
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+
+                        app:srcCompat="@mipmap/ic_mot" />
+
+                    <TextView
+                        android:id="@+id/txtTenBaiHat"
+                        android:layout_width="0dp"
+
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.6"
+                        android:hint="@string/input_song"
+                        android:onClick="Click"
+                        android:textSize="17sp" />
+
+                    <ImageButton
+                        android:id="@+id/imbOnOffMusic"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:background="@color/mauTrang"
+                        android:onClick="Click"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/bat" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+
+                        app:srcCompat="@mipmap/ic_hai" />
+
+                    <TextView
+                        android:id="@+id/txtYourFace"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.6"
+                        android:hint="@string/input_hinh_nam"
+                        android:onClick="Click"
+                        android:textSize="17sp" />
+
+                    <ImageView
+                        android:id="@+id/showYourImage"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:background="@drawable/bg_dialog"
+
+                        android:scaleType="centerCrop" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+
+                        app:srcCompat="@mipmap/ic_ba" />
+
+                    <TextView
+                        android:id="@+id/txtLoverFace"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.6"
+                        android:hint="@string/input_hinh_ny"
+                        android:onClick="Click"
+                        android:textSize="17sp" />
+
+                    <ImageView
+                        android:id="@+id/showYourLover"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:background="@drawable/bg_dialog"
+                        android:scaleType="centerCrop"
+
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+
+                        app:srcCompat="@mipmap/ic_bon" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/tipNameUser"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8">
+
+                        <EditText
+
+
+                            android:id="@+id/editText"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+
+                            android:hint="@string/input_name_user"
+                            android:textSize="15sp" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+
+                        app:srcCompat="@mipmap/ic_nam" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/tipNameLover"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8">
+
+                        <EditText
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:hint="@string/input_name_lover"
+
+                            android:textSize="15sp" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+
+                        app:srcCompat="@mipmap/ic_sau" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/tipStartDay"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8">
+
+                        <EditText
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:hint="@string/input_ngay_batdau"
+                            android:inputType="date"
+                            android:textSize="15sp" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+
+                        app:srcCompat="@mipmap/ic_bay" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/tipMessMacDinh"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8">
+
+                        <EditText
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:hint="@string/input_mess_macdinh"
+
+                            android:textSize="15sp" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <ScrollView
+
+                android:id="@+id/showMess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtShowMess"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp" />
+            </ScrollView>
+
+            <Button
+                android:id="@+id/btnMess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="Click"
+                android:text="Chay" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+</ScrollView>

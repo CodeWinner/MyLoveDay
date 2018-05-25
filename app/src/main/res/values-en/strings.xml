@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name_man">Man</string>
+    <string name="name_girl">Girl</string>
+    <string name="app_name">My Love Days</string>
+    <string name="btn_huy">Cancel</string>
+    <string name="btn_luu">Add</string>
+    <string name="btn_save">Save</string>
+    <string name="dialog_canhbao_chuan_code">Date must be standard dd / MM / yyyy!</string>
+    <string name="dialog_canhbao_mp3_code">Make sure your DCIM file has mp3!</string>
+    <string name="dialog_canhbao_saingay_code">Start date must be less than or equal to current date!</string>
+    <string name="dialog_chua_co_anh">No image available!</string>
+    <string name="dialog_chua_co_ngay_ky_niem">There is no anniversary!</string>
+    <string name="dialog_dung">Yes</string>
+    <string name="dialog_hoi_de_xoa">Make sure you want to delete this anniversary!</string>
+    <string name="dialog_khong">No</string>
+    <string name="dialog_show_xoa">Delete...</string>
+    <string name="dialog_thanhcong_code">Done !</string>
+    <string name="dialog_them_ky_niem">Add a memory</string>
+    <string name="ghi_chu">Note</string>
+    <string name="input_hinh_nam">Your picture</string>
+    <string name="input_hinh_ny">Pictures of your lover</string>
+    <string name="input_mess">Enter the message you want to send</string>
+    <string name="input_mess_macdinh">Default</string>
+    <string name="input_name_lover">Enter the nickname or name of the person you love</string>
+    <string name="input_name_user">Enter your nickname or name</string>
+    <string name="input_ngay_batdau">Day of Love (dd / MM / yyyy)</string>
+    <string name="input_song">Choose the song you want</string>
+    <string name="ky_niem">Memory</string>
+    <string name="ngay_bat_dau_code">Day start :</string>
+    <string name="ngay_ky_niem">Anniversary</string>
+    <string name="show_bat_ngo">Give her a surprise</string>
+    <string name="show_vidu">Example: I love you, Every day with you is every day happy</string>
+    <string name="mess_macding_code">...I Love You...</string>
+    <string name="dang_xuat">Do you want to sign out?</string>
+    <string name="khong_chua">Do not use "," </string>
+    <string name="btn_chay_chu">Run Letters</string>
+
+    <string name="id_analys">UA-118880302-11</string>
+</resources>
